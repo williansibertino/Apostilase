@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+.header--full {
+    background-image: url('escheresque_ste.png');
+    background-repeat: repeat;
+    height: 100vh;
+    border-bottom: 2px solid rgb(182, 182, 34);
+}
+.barra--header {
+    background-color: rgba(49, 51, 49, 0.70);
+    border-bottom: 2px solid rgb(182, 182, 34);
+}
+.barra--center {
+    display: block;
+    width: 220px;
+    margin: auto;
+}
+.barra--header p {
+    display: inline-block;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(212, 193, 21);
+    font-size: 20pt;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: auto;
+    text-transform: uppercase;
+    text-shadow: aqua;
+}
+ .fa-book {
+    text-align: center;
+    color: rgb(241, 237, 237);
+    font-size: 18pt;
+    text-align: center;
+}
+.descricao--header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(49, 51, 49, 0.70);
+    border-top: 2px solid rgb(182, 182, 34);
+    border-bottom: 2px solid rgb(182, 182, 34);
+    box-shadow: 1px 1px 1px rgba(49, 51, 49, 0.70);
+}
+.descricao--header p {
+    font-family: 'Istok Web', sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30pt;
+    color: rgb(255, 255, 254);
+}
+@media screen and (max-width: 600px) {
+    .descricao--header {
+        width: 95%;
+    }
+    .descricao--header p {
+        font-size: 20pt;
+    }
+}
