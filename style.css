@@ -62,3 +62,32 @@
         font-size: 20pt;
     }
 }
+.conteudo--repositorio {
+    background-color: #eee8e8;
+    padding-top: 30px;
+}
+.conteudo--repositorio h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
+    color: #000;
+    text-align: center;
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid rgb(223, 223, 67);
+    width: 280px;
+    margin: auto auto 30px auto;
+}
+.box--apostila {
+    display: block;
+    
+    border: 3px solid rgb(182, 182, 34);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    box-shadow: 5px -5px 0px #000;
+}
+.box--apostila button {
+    display: none;
+    
+}
+.box--apostila button:hover {
+    display: block;
+}
