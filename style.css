@@ -6,12 +6,11 @@
     border-bottom: 2px solid rgb(182, 182, 34);
 }
 .barra--header {
-    background-color: rgba(49, 51, 49, 0.70);
-    border-bottom: 2px solid rgb(182, 182, 34);
+    background-color:rgba(49, 51, 49, 0.65);
 }
 .barra--center {
     display: block;
-    width: 220px;
+    width: 240px;
     margin: auto;
 }
 .barra--header p {
@@ -77,12 +76,19 @@
     margin: auto auto 30px auto;
 }
 .box--apostila {
+    padding: 15px;
+}
+.box--item {
     display: block;
-    
+    width: 250px;
+    height: 250px;
     border: 3px solid rgb(182, 182, 34);
     border-top-width: 5px;
     border-right-width: 5px;
     box-shadow: 5px -5px 0px #000;
+}
+.box--item img {
+    height:100%;
 }
 .box--apostila button {
     display: none;
@@ -90,4 +96,7 @@
 }
 .box--apostila button:hover {
     display: block;
+}
+.res--offset--s1 {
+    margin-left: 8.33%;
 }
