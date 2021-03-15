@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
-.header--full {
-    background-image: url('escheresque_ste.png');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+/* header */
+/* Cores #ecec13 */
+.header-full {
+    background-image: url('imagens/escheresque_ste.png');
     background-repeat: repeat;
     height: 100vh;
-    border-bottom: 2px solid rgb(182, 182, 34);
+    border-bottom: 2px solid #ecec13;
 }
-.barra--header {
-    background-color:rgba(49, 51, 49, 0.65);
+.header-logo {
+    background-color:rgba(0, 0, 0, 0.1);
 }
-.barra--center {
+.logo-center {
     display: block;
     width: 240px;
     margin: auto;
 }
-.barra--header p {
+.header-logo p {
     display: inline-block;
     font-family: 'Istok Web', sans-serif;
     font-weight: 700;
     text-align: center;
-    color:rgb(212, 193, 21);
+    color: #ecec13;
     font-size: 20pt;
     letter-spacing: 2px;
     padding: 5px;
@@ -32,71 +36,60 @@
     font-size: 18pt;
     text-align: center;
 }
-.descricao--header {
+.header-descricao {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 300px;
+    height: 300px;
     padding: 20px;
-    background-color: rgba(49, 51, 49, 0.70);
-    border-top: 2px solid rgb(182, 182, 34);
-    border-bottom: 2px solid rgb(182, 182, 34);
-    box-shadow: 1px 1px 1px rgba(49, 51, 49, 0.70);
+    background-color: rgba(49, 51, 49, 0.7);
+    border-right: 5px solid #ecec13;
+    border-radius: 1%;
 }
-.descricao--header p {
-    font-family: 'Istok Web', sans-serif;
+.header-descricao:hover {
+    background-color: rgba(49, 51, 49);
+    transition: all 0.5s;
+}
+.header-descricao p {
+    font-family: 'Lato', sans-serif;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
     font-style: italic;
     font-size: 30pt;
-    color: rgb(255, 255, 254);
+    color: #d8d8d2;
 }
-@media screen and (max-width: 600px) {
-    .descricao--header {
-        width: 95%;
+@media screen and (max-width: 500px) {
+    .header-descricao {
+        width: 90%;
+        height: auto;
     }
-    .descricao--header p {
+    .header-descricao p {
         font-size: 20pt;
     }
 }
-.conteudo--repositorio {
-    background-color: #eee8e8;
-    padding-top: 30px;
+
+/* Main */
+.conteudo-repositorio {
+    background-image: url('imagens/double-bubble-outline.png');
+    padding-top: 50px;
 }
-.conteudo--repositorio h1 {
-    font-family: 'Courier New', Courier, monospace;
+.conteudo-repositorio h1 {
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 700;
     font-size: 30pt;
-    color: #000;
+    color: rgba(49, 51, 49);
     text-align: center;
-    padding: 20px 0 10px 0;
-    border-bottom: 2px solid rgb(223, 223, 67);
+    letter-spacing: 2px;
+    padding: 0;
+    border-left: 5px solid rgba(49, 51, 49);
     width: 280px;
     margin: auto auto 30px auto;
+    box-shadow: inset 0px 0px 0px 5px #ecec13;
+    border-radius: 2%;
 }
-.box--apostila {
-    padding: 15px;
-}
-.box--item {
-    display: block;
-    width: 250px;
-    height: 250px;
-    border: 3px solid rgb(182, 182, 34);
-    border-top-width: 5px;
-    border-right-width: 5px;
-    box-shadow: 5px -5px 0px #000;
-}
-.box--item img {
-    height:100%;
-}
-.box--apostila button {
-    display: none;
-    
-}
-.box--apostila button:hover {
-    display: block;
-}
-.res--offset--s1 {
-    margin-left: 8.33%;
-}
+
+
+
